@@ -1,0 +1,24 @@
+.primary-toolbar {
+  background: #fff;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.top-toolbar {
+  width: 100%;
+}
+
+.top-toolbar h1 {
+  font-weight: 400;
+}
+
+.toolbar-row.bottom-toolbar {
+  background: #f00;
+  color: #fff;
+}
+
+.toolbar-row.bottom-toolbar p {
+  margin: 0;
+  max-width: 50%;
+  font-size: 14px;
+  white-space: normal;
+}
