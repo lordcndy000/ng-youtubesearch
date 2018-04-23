@@ -1,4 +1,7 @@
+.search-form {
+  /* df */
+}
 .search-input-wrapper {
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: 50%;
 }
