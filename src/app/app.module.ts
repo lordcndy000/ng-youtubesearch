@@ -7,10 +7,11 @@ import { MatIconModule } from '@angular/material/icon'
 import {MatButtonModule} from '@angular/material/button';
 import { AppComponent } from './app.component'
 import { NavBarComponent } from './components/nav-bar/nav-bar.component'
-import { SearchformComponent } from './components/searchform/searchform.component'
+import { SearchformComponent } from './components/searchform/searchform.component';
+import { MainVideoComponent } from './components/main-video/main-video.component'
 
 @NgModule({
-  declarations: [AppComponent, NavBarComponent, SearchformComponent],
+  declarations: [AppComponent, NavBarComponent, SearchformComponent, MainVideoComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
