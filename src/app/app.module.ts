@@ -8,10 +8,11 @@ import {MatButtonModule} from '@angular/material/button';
 import { AppComponent } from './app.component'
 import { NavBarComponent } from './components/nav-bar/nav-bar.component'
 import { SearchformComponent } from './components/searchform/searchform.component';
-import { MainVideoComponent } from './components/main-video/main-video.component'
+import { MainVideoComponent } from './components/main-video/main-video.component';
+import { RelatedVideosComponent } from './components/related-videos/related-videos.component'
 
 @NgModule({
-  declarations: [AppComponent, NavBarComponent, SearchformComponent, MainVideoComponent],
+  declarations: [AppComponent, NavBarComponent, SearchformComponent, MainVideoComponent, RelatedVideosComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
