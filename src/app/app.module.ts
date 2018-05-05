@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser'
 import { NgModule } from '@angular/core'
-import { HttpModule } from '@angular/http'
+import { HttpClientModule } from '@angular/common/http'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { MatInputModule } from '@angular/material/input'
@@ -28,7 +28,7 @@ import { AppService } from './providers/app.service'
     MatInputModule,
     MatIconModule,
     MatButtonModule,
-    HttpModule
+    HttpClientModule
   ],
   providers: [AppService],
   bootstrap: [AppComponent]
