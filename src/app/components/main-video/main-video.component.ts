@@ -14,7 +14,7 @@ export class MainVideoComponent implements OnInit {
 
   ngOnInit() {
     this.appService.fetchData().subscribe(data => {
-      this.result = data.json()
+      this.result = data
       // this.result = JSON.parse(data._body)
       console.log(this.result)
     })
